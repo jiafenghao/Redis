@@ -1,0 +1,9 @@
+### 什么是简单动态字符串
+```
+struct sdshdr{
+ int len;
+ int free;
+ char buf[];
+}
+```
+SDS：Simple Dynamic String 简单动态字符串
