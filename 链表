@@ -1,0 +1,9 @@
+# 链表
+每个链表节点使用以下的结构体表示：
+```
+typedef struct listNode{
+  struct listNode *prev; //前置节点
+  struct listNode *next; //后置节点
+  void *node; //节点的值
+}listNode;
+```
